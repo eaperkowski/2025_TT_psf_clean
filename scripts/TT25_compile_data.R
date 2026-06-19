@@ -9,33 +9,33 @@ library(tidyverse)
 ##############################################################################
 
 # Plant IDs and their treatments
-df_ids <- read.csv("../../data/2025_2026/TT25_tri_trt_list.csv")
+df_ids <- read.csv("../data/TT25_tri_trt_list.csv")
 head(df_ids)
 
 # Read photosynthetic data
-df_photo <- read.csv("../../data/2025_2026/TT25_tri_photo_traits.csv")
+df_photo <- read.csv("../data/TT25_tri_photo_traits.csv")
 head(df_photo)
 
 # Read harvest data
-df_harvest <- read.csv("../../data/2025_2026/TT25_tri_harvest.csv") %>%
+df_harvest <- read.csv("../data/TT25_tri_harvest.csv") %>%
   dplyr::select(id:gasket, wet_shoot_mass_g = shoot_mass_g, 
                 wet_root_mass_g = root_mass_g, wet_rhizome_mass_g = rhizome_mass_g)
 head(df_harvest)
 
 # Read leaf area data
-df_la <- read.csv("../../data/2025_2026/TT25_leaf_area.csv") %>%
+df_la <- read.csv("../data/TT25_leaf_area.csv") %>%
   filter(id != "5904a" & id != "7574a") %>%
   mutate(id = ifelse(id == "5904b", "5904", 
                      ifelse(id == "7574b", "7574", id)))
 head(df_la)
 
 # Read dry mass data (only focal leaf so far)
-df_drymass <- read.csv("../../data/2025_2026/TT25_dry_masses.csv")
+df_drymass <- read.csv("../data/TT25_dry_masses.csv")
 head(df_drymass)
 
 # Read leaf isotope data, merge with leaf area data, then calculate additional
 # leaf nutrient data
-df_isotope <- read.csv("../../data/2025_2026/TT25b_leaf_isotope_data.csv") %>%
+df_isotope <- read.csv("../data/TT25_leaf_isotope_data.csv") %>%
   dplyr::select(id = Identifier.1, nmass_perc = X.N, d15N = d15Nair, 
                 cmass_perc = X.C, d13C = d13Cvpdb, run.comment) %>%
   filter(id != "UT729" & id != "LGlu4510" & id != "ureaJT" & 
