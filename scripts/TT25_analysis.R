@@ -220,6 +220,11 @@ cld(emmeans(marea_tri, ~ExpSoilSource*PlantGMTrt), alpha = 0.1)
 
 cld(emmeans(marea_tri, ~ExpSoilSource*ExpFungSource), alpha = 0.2)
 
+cld(emmeans(marea_tri, ~ExpSoilSource*ExpFungSource*PlantGMTrt), alpha = 0.2)
+
+
+
+
 ###############
 # Narea
 ###############
@@ -378,66 +383,3 @@ Anova(lar_tri)
 
 # Post hoc comparisons
 emmeans(lar_tri, pairwise~ExpSoilSource, type = "response")
-
-##############################
-# Plot arrangements
-##############################
-png("../drafts/figs/TT25_soilAMint_phys_plot.png", height = 8, 
-    width = 8, units = "in", res = 600)
-ggarrange(tri_anet_soilAMFint_plot, tri_gsw_soilAMFint_plot,
-          tri_vcmax_soilAMFint_plot, tri_jmax_soilAMFint_plot,
-          nrow = 2, ncol = 2, common.legend = TRUE, legend = "bottom",
-          labels = c("(a)", "(b)", "(c)", "(d)"), align = "hv")
-dev.off()
-
-
-png("../drafts/figs/TT25_soilAMint_use efficiencies_plot.png", height = 8, 
-    width = 8, units = "in", res = 600)
-ggarrange(tri_narea_soilAMFint_plot, tri_pnue_soilAMFint_plot,
-          tri_iwue_soilAMFint_plot,
-          nrow = 2, ncol = 2, common.legend = TRUE, legend = "bottom",
-          labels = c("(a)", "(b)", "(c)", "(d)"), align = "hv")
-dev.off()
-
-png("../drafts/figs/TT25_soilAMint_d15n_plot.png", height = 5.5, 
-    width = 5, units = "in", res = 600)
-tri_d15n_soilAMFint_plot
-dev.off()
-
-png("../drafts/figs/TT25_soilAMint_tla_plot.png", height = 5.5, 
-    width = 5, units = "in", res = 600)
-tri_tla_soilAMFint_plot
-dev.off()
-
-
-png("../../drafts/figs/TT25_AMind_plot.png", height = 4, 
-    width = 10, units = "in", res = 600)
-ggarrange(vcmax_AMF_ind_plot, jmax_AMF_ind_plot,
-          nrow = 1, ncol = 2, common.legend = TRUE, legend = "bottom",
-          labels = c("(a)", "(b)"), align = "hv",
-          font.label = list(size = 18))
-dev.off()
-
-
-
-
-
-lmer(leaf_d15n ~ Exp)
-
-leafd15n_sterile <- lmer(leaf_d15n ~ PlantGMTrt * ExpSoilSource * ExpFungSource + 
-       wet_rhizome_mass_g + (1 | plot_field), 
-     data = df)
-Anova(leafd15n_sterile)
-
-
-ggplot(data = df, aes(ExpFungSource, y = leaf_d15n)) +
-  geom_boxplot()
-  
-
-
-
-
-
-
-
-
