@@ -92,8 +92,8 @@ anet_plot_prep2 <- cld(emmeans(anet_tri, ~ExpSoilSource*ExpFungSource*PlantGMTrt
   
 anet_plot2 <- ggplot(data = anet_plot_prep2, 
                     aes(x = PlantGMTrt, y = emmean, group = soil_trt)) +
-  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A") +
-  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026") +
+  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A", alpha = 0.3) +
+  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026", alpha = 0.3) +
   geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL),
                 position = position_dodge(width = 0.75), width = 0.2) +
   geom_point(aes(shape = soil_trt, fill = soil_trt),
@@ -101,10 +101,10 @@ anet_plot2 <- ggplot(data = anet_plot_prep2,
   geom_text(aes(y = 3, label = .group), size = 6, fontface = "bold",
             position = position_dodge(width = 0.75)) +
   scale_y_continuous(limits = c(-1, 3), breaks = seq(-1, 3, 1)) +
-  scale_x_discrete(labels = c("Ambient", "Weeded")) +
-  scale_shape_manual(values = c(21, 22), labels = c("ambient", "weeded")) +
-  scale_fill_manual(values = c("#FCDE0A", "#668026"), labels = c("ambient", "weeded")) +
-  labs(x = "",
+  scale_x_discrete(labels = c("+GM", "- GM")) +
+  scale_shape_manual(values = c(21, 22), labels = c("+GM", "- GM")) +
+  scale_fill_manual(values = c("#FCDE0A", "#668026"), labels = c("+GM", "- GM")) +
+  labs(x = "Plant treatment legacy",
        y = expression(bolditalic("A")[bold("net")]*bold(" ("*mu*"mol m"^"-2"*" s"^"-1"*")")),
        shape = "Soil + AMF source",
        fill = "Soil + AMF source") +
@@ -176,8 +176,8 @@ tla_plot_prep2 <- cld(emmeans(tla_tri, ~ExpSoilSource*ExpFungSource*PlantGMTrt),
 
 tla_plot2 <- ggplot(data = tla_plot_prep2, 
                      aes(x = PlantGMTrt, y = emmean, group = soil_trt)) +
-  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A") +
-  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026") +
+  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A", alpha = 0.3) +
+  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026", alpha = 0.3) +
   geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL),
                 position = position_dodge(width = 0.75), width = 0.2) +
   geom_point(aes(shape = soil_trt, fill = soil_trt),
@@ -185,9 +185,9 @@ tla_plot2 <- ggplot(data = tla_plot_prep2,
   geom_text(aes(y = 9, label = .group), size = 6, fontface = "bold",
             position = position_dodge(width = 0.75)) +
   scale_y_continuous(limits = c(3, 9), breaks = seq(3, 9, 1.5)) +
-  scale_x_discrete(labels = c("Ambient", "Weeded")) +
-  scale_shape_manual(values = c(21, 22), labels = c("ambient", "weeded")) +
-  scale_fill_manual(values = c("#FCDE0A", "#668026"), labels = c("ambient", "weeded")) +
+  scale_x_discrete(labels = c("+GM", "- GM")) +
+  scale_shape_manual(values = c(21, 22), labels = c("+GM", "- GM")) +
+  scale_fill_manual(values = c("#FCDE0A", "#668026"), labels = c("+GM", "- GM")) +
   labs(x = "Plant treatment legacy",
        y = expression(bold("Total leaf area (cm"^"2"*")")),
        shape = "Soil + AMF source",
@@ -232,8 +232,8 @@ canA_plot_prep <- cld(emmeans(canopyA_tri, ~ExpSoilSource*ExpFungSource),
 
 canA_plot <- ggplot(data = canA_plot_prep, 
                     aes(x = ExpSoilSource, y = emmean, group = ExpFungSource)) +
-  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A") +
-  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026") +
+  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A", alpha = 0.2) +
+  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026", alpha = 0.2) +
   geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL),
                 position = position_dodge(width = 0.75), width = 0.2) +
   geom_point(aes(shape = ExpSoilSource, fill = ExpFungSource),
@@ -264,8 +264,8 @@ canA_plot_prep2 <- cld(emmeans(canopyA_tri, ~ExpSoilSource*ExpFungSource*PlantGM
 
 canA_plot2 <- ggplot(data = canA_plot_prep2, 
                     aes(x = PlantGMTrt, y = emmean, group = soil_trt)) +
-  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A") +
-  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026") +
+  geom_rect(xmin = -Inf, xmax = 1.5, ymin = -Inf, ymax = Inf, fill = "#FCDE0A", alpha = 0.3) +
+  geom_rect(xmin = 1.5, xmax = Inf, ymin = -Inf, ymax = Inf, fill = "#668026", alpha = 0.3) +
   geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL),
                 position = position_dodge(width = 0.75), width = 0.2) +
   geom_point(aes(shape = soil_trt, fill = soil_trt),
@@ -273,10 +273,10 @@ canA_plot2 <- ggplot(data = canA_plot_prep2,
   geom_text(aes(y = 12, label = .group), size = 6, fontface = "bold",
             position = position_dodge(width = 0.75)) +
   scale_y_continuous(limits = c(-3, 12), breaks = seq(-3, 12, 3)) +
-  scale_x_discrete(labels = c("Ambient", "Weeded")) +
-  scale_shape_manual(values = c(21, 22), labels = c("ambient", "weeded")) +
-  scale_fill_manual(values = c("#FCDE0A", "#668026"), labels = c("ambient", "weeded")) +
-  labs(x = "",
+  scale_x_discrete(labels = c("+GM", "- GM")) +
+  scale_shape_manual(values = c(21, 22), labels = c("+GM", "- GM")) +
+  scale_fill_manual(values = c("#FCDE0A", "#668026"), labels = c("+GM", "- GM")) +
+  labs(x = "Plant treatment legacy",
        y = expression(bold("Canopy ")*bolditalic("A")[bold("net")]*bold(" (mmol s"^"-1"*")")),
        shape = "Soil + AMF source",
        fill = "Soil + AMF source") +
@@ -292,8 +292,21 @@ ggarrange(anet_plot, tla_plot, canA_plot, ncol = 3, common.legend = TRUE, legend
 dev.off()
 
 
-png("../drafts/figs/niyomi_esa/TT25_NM_legacy_soil_int.png", width = 16, height = 6,
+png("../drafts/figs/niyomi_esa/TT25_NM_legacy_soil_int.png", width = 12, height = 6,
     units = "in", res = 600)
-ggarrange(anet_plot2, tla_plot2, canA_plot2, ncol = 3, common.legend = TRUE, legend = "bottom",
-          labels = c("(a)", "(b)", "(c)"), font.label = list(size = 22))
+ggarrange(anet_plot2, tla_plot2, ncol = 2, common.legend = TRUE, 
+          legend = "bottom", font.label = list(size = 22))
+dev.off()
+
+
+
+
+png("../drafts/figs/niyomi_esa/TT25_NM_legacy_soil_canopyA.png",
+    height = 5, width = 9, units = "in", res = 600)
+canA_plot2
+dev.off()
+
+png("../drafts/figs/niyomi_esa/TT25_NM_legacy_soil_Anet_tla.png",
+    height = 5, width = 9, units = "in", res = 600)
+canA_plot2
 dev.off()

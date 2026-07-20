@@ -1,0 +1,263 @@
+SAMPLE,SAMPLE_number,Plant,Row,Sample,Asep,Sep,FOV,Date,Initials,Notes,Month,Day,MD,Plot,Subplot,Species,Tag_number,FullExpTrt,PlantGMTrt,ExpSoilSource,ExpFungSource,Sterile,pots,ttu_colors,ttu_ids,PctH2O,Weight,Aseptate,Septate,Asep_root,Arb_root,Ves_root,Sep_root
+43-,43,No plant,2\24,1,27,0,100,6/3/26,J.S.,,6,3,3-Jun,5,9,Tri,43,PlantW-SoilNW-FungWsterile,GM-,GM+,GM-sterile,Yes,1,pink_blue,43_Tri_pink_blue,0.894632207,7.47,0.550673895,0,0,0,0,0
+43+,43,Plant,1,1,97,6,100,,,,,,,5,9,Tri,43,PlantW-SoilNW-FungWsterile,GM-,GM+,GM-sterile,Yes,1,pink_blue,43_Tri_pink_blue,0.859916782,5,3.074971969,0.190204452,0,0,0,0
+86-,86,No plant,2\19,2,22,2,100,6/2/26,J.S.,,6,2,2-Jun,5,9,Tri,86,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,86_Tri_pink,0.857685009,6.57,0.532139317,0.048376302,0,0,0,0
+86+,86,Plant,34,2,69,0,100,5/4/26,C.C.,,5,4,4-May,5,9,Tri,86,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,86_Tri_pink,0.867368421,6.05,1.792197906,0,0,0,0,0
+392-,392,No plant,2\22,1,53,2,100,6/3/26,J.S.,,6,3,3-Jun,3,22,Tri,392,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,392_Tri_blue,0.871892925,7.36,1.125720973,0.042480037,0,0,0,0
+392+,392,Plant,87,2,67,1,100,5/28/26,C.C.,,5,28,28-May,3,22,Tri,392,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,392_Tri_blue,0.855241265,7.5,1.423707418,0.021249364,0,0,0,0
+452-,452,No plant,16,2,27,0,100,4/30/26,,,4,30,30-Apr,3,22,Tri,452,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,452_Tri_blue,0.882222222,6.36,0.655880186,0,0,0,0,0
+452+,452,Plant,61,1,78,0,100,5/22/26,C.C.,,5,22,22-May,3,22,Tri,452,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,452_Tri_blue,0.865384615,7.64,1.608006982,0,0,0,0,0
+482-,482,No plant,,,39,0,,,,,,,,5,22,Tri,482,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,482_Tri_blue,0.897260274,5.56,1.065533802,0,0,0,0,0
+482+,482,Plant,2\11,1,79,0,100,5/29/26,C.C.,,5,29,29-May,5,22,Tri,482,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,482_Tri_blue,0.879032258,7.96,1.538881103,0,0,0,0,0
+552-,552,No plant,28,1,33,0,100,5/1/26,C.C.,,5,1,1-May,3,14,Tri,552,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,552_Tri_orange,0.892307692,7.37,0.683955224,0,0.01,0,0,0
+552+,552,Plant,2\18,1,41,0,100,6/2/26,J.S.,,6,2,2-Jun,3,14,Tri,552,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,552_Tri_orange,0.894179894,7.68,0.813754854,0,0.01,0,0,0
+583-,583,No plant,2\11,1,44,1,100,5/29/26,C.C.,,5,29,29-May,3,23,Tri,583,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,583_Tri_white,0.877589454,7.37,0.927234642,0.021073515,0,0,0,0
+583+,583,Plant,2\17,1,85,0,100,6/1/26,J.S.,,6,1,1-Jun,3,23,Tri,583,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,583_Tri_white,0.892100193,7.18,1.808742336,0,0,0,0,0
+614-,614,No plant,60,1,49,0,100,5/22/26,C.C.,,5,22,22-May,5,11,Tri,614,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,614_Tri_purple,0.8768,6.59,1.155861984,0,0,0,0,0
+614+,614,Plant,92,1,66,0,100,5/28/26,C.C.,,5,28,28-May,5,11,Tri,614,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,614_Tri_purple,0.887583893,6.34,1.598604831,0,0,0,0,0
+632-,632,No plant,4,2,50,4,100,4/24/26,C.C.,,4,24,24-Apr,7,8,Tri,632,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,632_Tri_red,0.877755511,6.38,1.216946866,0.097355749,0,0,0,0
+632+,632,Plant,2\6,1,72,2,100,5/29/26,C.C.,,5,29,29-May,7,8,Tri,632,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,632_Tri_red,0.866666667,8.17,1.385971189,0.0384992,0,0,0,0
+684-,684,No plant,53,1,29,2,100,5/19/26,,,5,19,19-May,6,2,Tri,684,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,684_Tri_yellow,0.867816092,7.1,0.641516463,0.044242515,0,0,0,0
+684+,684,Plant,56,2,46,3,100,5/21/26,,,5,21,21-May,6,2,Tri,684,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,684_Tri_yellow,1.185882353,6.9,0.766236772,0.049971963,0,0,0,0
+774-,774,No plant,2\14,2,60,0,100,5/29/26,C.C.,,5,29,29-May,3,20,Tri,774,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,774_Tri_yellow,0.890804598,7.93,1.157687833,0,0.02,0,0,0
+774+,774,Plant,79,1,44,0,100,5/26/26,C.C.,,5,26,26-May,3,20,Tri,774,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,774_Tri_yellow,0.892690513,5.57,1.206125273,0,0.02,0,0,0
+827-,827,No plant,20,1,55,0,100,5/1/26,C.C.,,5,1,1-May,4,9,Tri,827,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,827_Tri_yellow,0.918200409,5.89,1.386135763,0,0,0,0,0
+827+,827,Plant,25,1,57,2,100,5/1/26,C.C.,,5,1,1-May,4,9,Tri,827,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,827_Tri_yellow,0.918669131,7.02,1.204687699,0.042269744,0,0,0,0
+902-,902,No plant,35,2,41,0,100,5/4/26,C.C.,,5,4,4-May,3,7,Tri,902,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,902_Tri_orange,0.844758065,5.42,1.220528934,0,0,0,0,0
+902+,902,Plant,43,1,35,0,100,5/12/26,,,5,12,12-May,3,7,Tri,902,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,902_Tri_orange,0.84141791,7.03,0.806485982,0,0,0,0,0
+916-,916,No plant,77,1,13,0,100,5/26/26,C.C.,,5,26,26-May,3,16,Tri,916,PlantNW-SoilW-FungNWsterile,GM+,GM-,GM+sterile,Yes,1,green_blue,916_Tri_green_blue,0.881028939,7.08,0.284063724,0,0,0,0,0
+916+,916,Plant,64,1,71,0,100,5/22/26,C.C.,,5,22,22-May,3,16,Tri,916,PlantNW-SoilW-FungNWsterile,GM+,GM-,GM+sterile,Yes,1,green_blue,916_Tri_green_blue,0.868462758,5.17,2.155323489,0,0,0,0,0
+955-,955,No plant,,,14,2,,,,,,,,3,8,Tri,955,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,955_Tri_pink,0.907407407,5.31,0.396029056,0.056575579,0.03,0.01,0.02,0
+955+,955,Plant,8,2,60,1,100,4/27/26,M.C.,,4,27,27-Apr,3,8,Tri,955,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,955_Tri_pink,0.87173913,5.15,1.821601337,0.030360022,0.03,0.01,0.02,0
+972-,972,No plant,2\17,2,66,0,100,6/2/26,J.S.,,6,2,2-Jun,7,11,Tri,972,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,972_Tri_purple,0.901353965,7.53,1.325407555,0,0,0,0,0
+972+,972,Plant,,,69,2,,,,,,,,7,11,Tri,972,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,972_Tri_purple,0.853465347,5.65,1.950341251,0.05653163,0,0,0,0
+978-,978,No plant,75,1,38,2,100,5/26/26,C.C.,,5,26,26-May,6,6,Tri,978,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,978_Tri_blue,0.878991597,5.19,1.135343744,0.059754934,0,0,0,0
+978+,978,Plant,9,1,83,6,100,4/29/26,C.C.,,4,29,29-Apr,6,6,Tri,978,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,978_Tri_blue,0.89295393,7.19,1.762040981,0.127376456,0,0,0,0
+989-,989,No plant,,,39,0,,,,,,,,4,13,Tri,989,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,989_Tri_orange,0.913953488,5.27,1.103635732,0,0,0,0,0
+989+,989,Plant,11,2,69,1,100,4/29/26,C.C.,,4,29,29-Apr,4,13,Tri,989,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,989_Tri_orange,0.790076336,5.28,2.25445707,0.032673291,0,0,0,0
+1374-,1374,No plant,46,2,34,3,100,5/12/26,,,5,12,12-May,5,10,Tri,1374,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,1374_Tri_white,0.868913858,6.74,0.79129451,0.069820104,0.01,0,0,0
+1374+,1374,Plant,44,2,34,1,100,5/12/26,,slide leaking,5,12,12-May,5,10,Tri,1374,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,1374_Tri_white,0.881619938,6.95,0.75632519,0.022244859,0.01,0,0,0
+1647-,1647,No plant,26,1,39,1,100,5/1/26,C.C.,,5,1,1-May,7,11,Tri,1647,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,1647_Tri_white,0.69588551,6.42,1.189837469,0.030508653,0,0,0,0
+1647+,1647,Plant,,,104,0,,,,,,,,7,11,Tri,1647,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,1647_Tri_white,0.88358209,5.3,3.026958183,0,0,0,0,0
+1666-,1666,No plant,2\9,1,42,0,100,5/29/26,C.C.,,5,29,29-May,3,27,Tri,1666,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,1666_Tri_pink,0.887987013,8.22,0.784272008,0,0,0,0,0
+1666+,1666,Plant,,,49,0,,,,,,,,3,27,Tri,1666,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,1666_Tri_pink,0.878120411,5.1,1.491309168,0,0,0,0,0
+1669-,1669,No plant,2,2,30,0,100,,,,,,,7,11,Tri,1669,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,1669_Tri_blue,0.901960784,5.04,0.899495342,0,0,0,0,0
+1669+,1669,Plant,,,57,1,,,,,,,,7,11,Tri,1669,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,1669_Tri_blue,0.865008881,5.15,1.743985686,0.03059624,0,0,0,0
+1686-,1686,No plant,65,2,36,0,100,5/22/26,C.C.,,5,22,22-May,3,6,Tri,1686,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,1686_Tri_green,0.859574468,5.16,1.106280221,0,0,0,0,0
+1686+,1686,Plant,82,1,53,0,100,5/26/26,C.C.,,5,26,26-May,3,6,Tri,1686,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,1686_Tri_green,0.880434783,7.72,1.062813919,0,0,0,0,0
+1750-,1750,No plant,2\9,2,47,0,100,5/29/26,C.C.,,5,29,29-May,5,20,Tri,1750,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,1750_Tri_red,0.861852433,8.14,0.913137959,0,0,0,0,0
+1750+,1750,Plant,27,2,71,0,100,5/1/26,C.C.,,5,1,1-May,5,20,Tri,1750,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,1750_Tri_red,0.883928571,6.57,1.666370863,0,0,0,0,0
+1827-,1827,No plant,62,1,28,1,100,5/22/26,C.C.,,5,22,22-May,7,8,Tri,1827,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,1827_Tri_yellow,0.851973684,5.27,0.84999641,0.030357015,0,0,0,0
+1827+,1827,Plant,81,1,52,0,100,5/26/26,C.C.,,5,26,26-May,7,8,Tri,1827,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,1827_Tri_yellow,0.886792453,6.66,1.20006006,0,0,0,0,0
+1851-,1851,No plant,82,2,38,0,100,5/26/26,C.C.,,5,26,26-May,7,8,Tri,1851,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,1851_Tri_orange,0.877310924,6.58,0.897222223,0,0,0,0,0
+1851+,1851,Plant,2\21,1,155,3,100,6/3/26,J.S.,New Record WOW!!,6,3,3-Jun,7,8,Tri,1851,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,1851_Tri_orange,0.890942699,8.71,2.722448203,0.052692546,0,0,0,0
+1926-,1926,No plant,13,2,33,2,100,4/29/26,C.C.,,4,29,29-Apr,3,5,Tri,1926,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,1926_Tri_purple,0.877894737,5.13,0.998734346,0.060529354,0,0,0,0
+1926+,1926,Plant,23,2,32,1,100,5/1/26,C.C.,Abnormally Low,5,1,1-May,3,5,Tri,1926,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,1926_Tri_purple,0.890868597,6.38,0.767381818,0.023980682,0,0,0,0
+1975-,1975,No plant,48,1,16,0,100,5/19/26,,Abnormally Low,5,19,19-May,7,18,Tri,1975,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,1975_Tri_purple,0.874226804,7.73,0.322709854,0,0.020833333,0,0,0
+1975+,1975,Plant,38,2,71,0,100,5/8/26,C.C.,,5,8,8-May,7,18,Tri,1975,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,1975_Tri_purple,0.886255924,6.61,1.651937431,0,0.020833333,0,0,0
+2074-,2074,No plant,26,2,37,0,100,5/1/26,C.C.,,5,1,1-May,6,16,Tri,2074,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,2074_Tri_blue,0.899606299,8.78,0.63848482,0,0,0,0,0
+2074+,2074,Plant,2\13,1,67,0,100,5/29/26,C.C.,,5,29,29-May,6,16,Tri,2074,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,2074_Tri_blue,0.875,7.52,1.387857143,0,0,0,0,0
+2131-,2131,No plant,80,1,41,1,100,5/26/26,C.C.,,5,26,26-May,3,30,Mai,2131,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,2131_Mai_blue,0.890044577,6.11,1.027606266,0.025063567,0,0,0,0
+2131+,2131,Plant,2\15,2,63,0,100,5/29/26,C.C.,,5,29,29-May,3,30,Mai,2131,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,2131_Mai_blue,0.885022693,7.29,1.33092772,0,0,0,0,0
+2276-,2276,No plant,45,2,24,2,100,5/12/26,,slide leaking,5,12,12-May,6,22,Tri,2276,PlantNW-SoilW-FungWsterile,GM+,GM-,GM-sterile,Yes,1,purple_blue,2276_Tri_purple_blue,0.874524715,6.63,0.56418493,0.047015411,0,0,0,0
+2276+,2276,Plant,23,1,44,1,100,5/1/26,C.C.,Abnormally Low,5,1,1-May,6,22,Tri,2276,PlantNW-SoilW-FungWsterile,GM+,GM-,GM-sterile,Yes,1,purple_blue,2276_Tri_purple_blue,0.801181102,7.05,1.061765766,0.02413104,0,0,0,0
+2289-,2289,No plant,80,2,20,0,100,5/26/26,C.C.,,5,26,26-May,7,11,Tri,2289,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,2289_Tri_green,0.875420875,5.58,0.558052109,0,0,0,0,0
+2289+,2289,Plant,2\22,2,28,2,100,6/3/26,J.S.,,6,3,3-Jun,7,11,Tri,2289,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,2289_Tri_green,0.89435337,7.18,0.594319931,0.042451424,0,0,0,0
+2329-,2329,No plant,2\24,2,64,0,100,6/3/26,J.S.,,6,3,3-Jun,3,20,Tri,2329,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2329_Tri_red,0.882899628,7.1,1.391573492,0,0,0,0,0
+2329+,2329,Plant,18,2,40,0,100,4/30/26,,,4,30,30-Apr,3,20,Tri,2329,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2329_Tri_red,0.856512141,6.5,0.979284695,0,0,0,0,0
+2379-,2379,No plant,77,2,40,1,100,5/26/26,C.C.,,5,26,26-May,7,23,Tri,2379,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,2379_Tri_purple,0.883280757,7.21,0.85609471,0.021402368,0,0,0,0
+2379+,2379,Plant,79,2,72,0,100,5/26/26,C.C.,,5,26,26-May,7,23,Tri,2379,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,2379_Tri_purple,0.869491525,5.86,1.926040358,0,0,0,0,0
+2382-,2382,No plant,86,2,41,0,100,5/26/26,C.C.,,5,26,26-May,7,23,Tri,2382,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,2382_Tri_blue,0.894833948,7.58,0.823887768,0,0,0,0,0
+2382+,2382,Plant,86,1,74,0,100,5/26/26,C.C.,,5,26,26-May,7,23,Tri,2382,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,2382_Tri_blue,0.902847571,7.07,1.580133308,0,0,0,0,0
+2416-,2416,No plant,90,2,26,0,100,5/28/26,C.C.,,5,28,28-May,3,17,Tri,2416,PlantNW-SoilW-FungNWsterile,GM+,GM-,GM+sterile,Yes,1,green_blue,2416_Tri_green_blue,0.896475771,6.55,0.603516777,0,0.02,0,0,0
+2416+,2416,Plant,2\27,1,35,0,100,6/4/26,J.S.,,6,4,4-Jun,3,17,Tri,2416,PlantNW-SoilW-FungNWsterile,GM+,GM-,GM+sterile,Yes,1,green_blue,2416_Tri_green_blue,0.882783883,6.44,0.839119159,0,0.02,0,0,0
+2547-,2547,No plant,50,1,20,1,100,5/19/26,,,5,19,19-May,5,19,Tri,2547,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,2547_Tri_pink,0.860759494,8.51,0.372146955,0.018607348,0,0,0,0
+2547+,2547,Plant,44,1,39,2,100,5/12/26,,slide leaking,5,12,12-May,5,19,Tri,2547,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,2547_Tri_pink,0.870748299,6.35,0.96137783,0.049301427,0,0,0,0
+2563-,2563,No plant,2\29,2,52,1,100,6/3/26,J.S.,,6,3,3-Jun,5,16,Tri,2563,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,2563_Tri_white,0.891107078,7.18,1.107757916,0.021303037,0,0,0,0
+2563+,2563,Plant,2\10,1,72,0,100,5/29/26,C.C.,,5,29,29-May,5,16,Tri,2563,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,2563_Tri_white,0.877876106,7.89,1.416831228,0,0,0,0,0
+2573-,2573,No plant,2\28,1,36,0,100,6/4/26,J.S.,,6,4,4-Jun,5,31,Tri,2573,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,2573_Tri_pink,0.898734177,7.17,0.761461489,0,0,0,0,0
+2573+,2573,Plant,2\23,1,43,3,100,5/29/26,C.C.,,5,29,29-May,5,31,Tri,2573,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,2573_Tri_pink,0.884615385,9.3,0.712404862,0.049702665,0,0,0,0
+2703-,2703,No plant,2\7,1,33,2,100,5/29/26,C.C.,,5,29,29-May,4,8,Tri,2703,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,2703_Tri_pink,0.843003413,7.05,0.756817814,0.045867746,0,0,0,0
+2703+,2703,Plant,83,1,67,0,100,5/26/26,C.C.,,5,26,26-May,4,8,Tri,2703,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,2703_Tri_pink,0.882474227,7,1.478327269,0,0,0,0,0
+2886-,2886,No plant,89,1,40,2,100,5/28/26,C.C.,,5,28,28-May,7,24,Tri,2886,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,2886_Tri_green,0.856925419,7.48,0.850572278,0.042528614,0.01,0,0.01,0
+2886+,2886,Plant,42,2,45,1,100,5/12/26,,Very little dye present,5,12,12-May,7,24,Tri,2886,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,2886_Tri_green,0.853492334,6.48,1.1090056,0.024644569,0.01,0,0.01,0
+2912-,2912,No plant,32,2,35,0,100,5/4/26,C.C.,,5,4,4-May,5,11,Tri,2912,PlantNW-SoilNW-FungWsterile,GM+,GM+,GM-sterile,Yes,1,white_blue,2912_Tri_white_blue,0.892241379,7.05,0.758389694,0,0,0,0,0
+2912+,2912,Plant,2\8,2,62,0,100,5/29/26,C.C.,,5,29,29-May,5,11,Tri,2912,PlantNW-SoilNW-FungWsterile,GM+,GM+,GM-sterile,Yes,1,white_blue,2912_Tri_white_blue,0.870466321,7.72,1.257529762,0,0,0,0,0
+2927-,2927,No plant,2\16,2,29,0,100,6/2/26,J.S.,,6,2,2-Jun,7,14,Tri,2927,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,2927_Tri_orange,1.159806295,7,0.486867015,0,0,0,0,0
+2927+,2927,Plant,8,1,76,0,100,4/27/26,M.C.,,4,27,27-Apr,7,14,Tri,2927,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,2927_Tri_orange,0.896017699,5.71,2.024681672,0,0,0,0,0
+2941-,2941,No plant,72,1,39,0,100,5/26/26,C.C.,,5,26,26-May,6,6,Tri,2941,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,2941_Tri_purple,0.890547264,6.63,0.900305619,0,0,0,0,0
+2941+,2941,Plant,75,2,49,0,100,5/26/26,C.C.,,5,26,26-May,6,6,Tri,2941,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,2941_Tri_purple,0.886538462,6.36,1.184505927,0,0,0,0,0
+2980-,2980,No plant,41,1,46,0,100,5/3/26,C.C.,,5,3,3-May,6,11,Tri,2980,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,2980_Tri_white,0.882998172,7.17,0.990318124,0,0,0,0,0
+2980+,2980,Plant,2\26,1,148,0,100,6/4/26,J.S.,3 vesicles found,6,4,4-Jun,6,11,Tri,2980,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,2980_Tri_white,0.880478088,7.39,3.100234754,0,0,0,0,0
+2988-,2988,No plant,33,1,43,5,100,5/4/26,C.C.,,5,4,4-May,5,33,Tri,2988,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,2988_Tri_yellow,0.87458194,7.77,0.862467597,0.10028693,0,0,0,0
+2988+,2988,Plant,73,2,,,,,,,,,,5,33,Tri,2988,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,2988_Tri_yellow,0.87593985,6.63,,,0,0,0,0
+3004-,3004,No plant,,,59,0,,,,,,,,5,21,Tri,3004,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,3004_Tri_orange,0.897379913,5.13,1.746844144,0,0,0,0,0
+3004+,3004,Plant,,,47,0,,,,,,,,5,21,Tri,3004,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,3004_Tri_orange,0.927592955,5.51,1.253385521,0,0,0,0,0
+3031-,3031,No plant,65,1,29,1,100,5/22/26,C.C.,,5,22,22-May,4,28,Tri,3031,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,3031_Tri_white,0.865566038,5.49,0.831804569,0.028682916,0,0,0,0
+3031+,3031,Plant,71,1,118,0,100,5/22/26,C.C.,,5,22,22-May,4,28,Tri,3031,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,3031_Tri_white,0.833333333,5.16,3.740325583,0,0,0,0,0
+3043-,3043,No plant,,,30,2,,,,,,,,7,24,Tri,3043,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,3043_Tri_purple,0.883468835,5.33,0.868357716,0.057890514,0,0,0,0
+3043+,3043,Plant,,,63,0,,,,,,,,7,24,Tri,3043,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,3043_Tri_purple,0.75826087,5.23,2.165290007,0,0,0,0,0
+3071-,3071,No plant,85,2,25,5,100,5/12/26,,,5,12,12-May,7,8,Tri,3071,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,3071_Tri_yellow,0.887775551,7.59,0.505697618,0.101139524,0,0,0,0
+3071+,3071,Plant,46,1,22,3,100,5/19/26,,,5,19,19-May,7,8,Tri,3071,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,3071_Tri_yellow,0.864564007,6.27,0.553163919,0.075431443,0,0,0,0
+3077-,3077,No plant,2\26,2,44,0,100,6/4/26,J.S.,,6,4,4-Jun,5,21,Tri,3077,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,3077_Tri_pink,0.882681564,8.6,0.790034442,0,0,0,0,0
+3077+,3077,Plant,29,1,75,0,100,5/4/26,C.C.,,5,4,4-May,5,21,Tri,3077,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,3077_Tri_pink,0.891418564,6.53,1.756152652,0,0,0,0,0
+3305-,3305,No plant,2\13,1,36,0,100,5/29/26,C.C.,,5,29,29-May,6,5,Tri,3305,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,3305_Tri_white,0.890772128,7.88,0.699045621,0,0,0,0,0
+3305+,3305,Plant,52,2,50,8,100,5/19/26,,Large septate,5,19,19-May,6,5,Tri,3305,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,3305_Tri_white,0.886363636,6.85,1.122440577,0.179590492,0,0,0,0
+3309-,3309,No plant,36,1,43,1,100,5/3/26,C.C.,,5,3,3-May,4,9,Tri,3309,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,3309_Tri_yellow,0.836158192,8.31,0.843480096,0.019615816,0,0,0,0
+3309+,3309,Plant,10,1,70,3,100,4/29/26,C.C.,,4,29,29-Apr,4,9,Tri,3309,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,3309_Tri_yellow,0.903030303,5.82,1.815384349,0.077802186,0,0,0,0
+3371-,3371,No plant,57,2,52,1,100,5/21/26,C.C.,,5,21,21-May,6,11,Tri,3371,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,3371_Tri_blue,0.868983957,5.48,1.488356205,0.028622235,0.01,0,0,0
+3371+,3371,Plant,2\23,2,72,2,100,6/3/26,J.S.,,6,3,3-Jun,6,11,Tri,3371,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,3371_Tri_blue,0.857397504,7.62,1.502073437,0.041724262,0.01,0,0,0
+3379-,3379,No plant,2,1,21,0,100,,,,,,,6,11,Tri,3379,PlantNW-SoilNW-FungNWsterile,GM+,GM+,GM+sterile,Yes,1,blue_blue,3379_Tri_blue_blue,0.883040936,6.68,0.485241404,0,0,0,0,0
+3379+,3379,Plant,2\28,2,58,6,100,6/4/26,J.S.,,6,4,4-Jun,6,11,Tri,3379,PlantNW-SoilNW-FungNWsterile,GM+,GM+,GM+sterile,Yes,1,blue_blue,3379_Tri_blue_blue,0.859683794,7.46,1.232668455,0.127517426,0,0,0,0
+3427-,3427,No plant,2\12,2,35,0,100,5/29/26,C.C.,,5,29,29-May,7,35,Tri,3427,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,3427_Tri_green,0.87195122,7.79,0.702318734,0,0,0,0,0
+3427+,3427,Plant,2\5,2,36,0,100,5/28/26,C.C.,,5,28,28-May,7,35,Tri,3427,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,3427_Tri_green,0.926335175,7.15,0.74083955,0,0,0,0,0
+3526-,3526,No plant,31,2,52,0,100,5/4/26,C.C.,,5,4,4-May,7,35,Tri,3526,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,3526_Tri_green,0.864150943,6.83,1.200850346,0,0.01,0,0,0
+3526+,3526,Plant,15,1,86,0,100,4/29/26,C.C.,,4,29,29-Apr,7,35,Tri,3526,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,3526_Tri_green,0.901639344,5.45,2.385420518,0,0.01,0,0,0
+3563-,3563,No plant,22,2,29,0,100,5/1/26,C.C.,,5,1,1-May,3,4,Tri,3563,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,3563_Tri_purple,0.890384615,5.8,0.765399568,0,0,0,0,0
+3563+,3563,Plant,15,2,61,1,100,4/29/26,C.C.,,4,29,29-Apr,3,4,Tri,3563,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,3563_Tri_purple,0.875457875,5.11,1.858529834,0.030467702,0,0,0,0
+3708-,3708,No plant,68,2,39,1,100,5/22/26,C.C.,,5,22,22-May,4,10,Tri,3708,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,3708_Tri_blue,0.865008881,6.53,0.941080371,0.024130266,0,0,0,0
+3708+,3708,Plant,55,2,68,0,100,5/21/26,C.C.,,5,21,21-May,4,10,Tri,3708,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,3708_Tri_blue,0.87295082,8.76,1.212023066,0,0,0,0,0
+3829-,3829,No plant,2\16,1,55,0,100,6/2/26,J.S.,,6,2,2-Jun,5,33,Tri,3829,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,3829_Tri_yellow,0.870242215,8.15,1.056965446,0,0,0,0,0
+3829+,3829,Plant,20,2,59,1,100,5/1/26,C.C.,,5,1,1-May,5,33,Tri,3829,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,3829_Tri_yellow,0.892367906,6.59,1.367472213,0.023177495,0,0,0,0
+4000-,4000,No plant,2\20,2,60,0,100,6/3/26,J.S.,2 vesicles found,6,3,3-Jun,5,20,Tri,4000,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4000_Tri_red,0.871892925,7.54,1.243977733,0,0,0,0,0
+4000+,4000,Plant,2\20,1,96,0,100,6/1/26,J.S.,,6,1,1-Jun,5,20,Tri,4000,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4000_Tri_red,0.880910683,7.57,1.962182204,0,0,0,0,0
+4081-,4081,No plant,1,2,41,0,100,4/26/26,,,4,26,26-Apr,7,18,Tri,4081,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4081_Tri_green,0.865525672,5.88,1.0980508,0,0,0,0,0
+4081+,4081,Plant,40,2,65,3,100,5/8/26,C.C.,,5,8,8-May,7,18,Tri,4081,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4081_Tri_green,0.875,5.46,1.854421769,0.085588697,0,0,0,0
+4105-,4105,No plant,25,2,40,0,100,5/1/26,C.C.,,5,1,1-May,5,10,Tri,4105,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4105_Tri_purple,0.890538033,5.96,1.027204978,0,0,0,0,0
+4105+,4105,Plant,30,2,72,1,100,5/4/26,C.C.,,5,4,4-May,5,10,Tri,4105,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4105_Tri_purple,0.89678511,6.39,1.712533617,0.023785189,0,0,0,0
+4109-,4109,No plant,2\4,1,33,2,100,5/28/26,C.C.,,5,28,28-May,5,32,Tri,4109,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4109_Tri_red,0.870722433,7.93,0.65141368,0.039479617,0.01,0,0,0.01
+4109+,4109,Plant,54,1,41,4,100,5/19/26,,,5,19,19-May,5,32,Tri,4109,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4109_Tri_red,0.875,6.83,0.93508471,0.091227777,0.01,0,0,0.01
+4149-,4149,No plant,,,28,0,,,,,,,,5,13,Tri,4149,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4149_Tri_red,0.891107078,5.26,0.814213408,0,0,0,0,0
+4149+,4149,Plant,63,1,51,1,100,5/22/26,C.C.,,5,22,22-May,5,13,Tri,4149,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4149_Tri_red,0.83992467,5.36,1.544048383,0.030275458,0,0,0,0
+4177-,4177,No plant,12,2,34,1,100,4/29/26,C.C.,,4,29,29-Apr,5,14,Tri,4177,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,4177_Tri_orange,0.915413534,5.17,0.979189845,0.028799701,0,0,0,0
+4177+,4177,Plant,18,1,15,0,100,4/30/26,,,4,30,30-Apr,5,14,Tri,4177,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,4177_Tri_orange,0.854805726,6.09,0.392737526,0,0,0,0,0
+4265-,4265,No plant,6,2,86,0,100,4/24/26,C.C.,,4,24,24-Apr,5,31,Tri,4265,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4265_Tri_red,0.959401709,5.64,2.166280625,0,0,0,0,0
+4265+,4265,Plant,91,1,67,1,100,5/28/26,C.C.,Abnormally High,5,28,28-May,5,31,Tri,4265,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4265_Tri_red,0.894144144,5.11,1.998675191,0.029830973,0,0,0,0
+4373-,4373,No plant,2\15,1,30,0,100,5/29/26,C.C.,,5,29,29-May,6,2,Tri,4373,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4373_Tri_pink,0.867886179,7.43,0.634111347,0,0,0,0,0
+4373+,4373,Plant,36,2,61,2,100,5/3/26,C.C.,,5,3,3-May,6,2,Tri,4373,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4373_Tri_pink,0.891129032,6.44,1.448769287,0.047500632,0,0,0,0
+4414-,4414,No plant,31,1,47,0,100,5/4/26,C.C.,,5,4,4-May,5,22,Tri,4414,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4414_Tri_purple,0.896414343,6.55,1.091047396,0,0,0,0,0
+4414+,4414,Plant,52 or 32?,2,110,3,100,5/19/26,,,5,19,19-May,5,22,Tri,4414,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4414_Tri_purple,0.865306122,6.83,2.536869114,0.069187339,0,0,0,0
+4431-,4431,No plant,56,1,62,2,100,5/21/26,,,5,21,21-May,5,23,Tri,4431,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4431_Tri_green,0.851851852,7.39,1.34239101,0.043302936,0,0,0,0
+4431+,4431,Plant,2\4,2,52,2,100,5/28/26,,,5,28,28-May,5,23,Tri,4431,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4431_Tri_green,0.901515152,8.1,0.970601929,0.037330843,0,0,0,0
+4452-,4452,No plant,5,1,47,0,100,4/24/26,C.C.,,4,24,24-Apr,4,7,Tri,4452,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4452_Tri_pink,0.879916859,5.37,1.355744307,0,0.01,0,0,0
+4452+,4452,Plant,2\25,1,74,2,100,6/3/26,J.S.,,6,3,3-Jun,4,7,Tri,4452,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4452_Tri_pink,0.874551971,7.48,1.541843715,0.041671452,0.01,0,0,0
+4505-,4505,No plant,12,1,49,0,100,4/29/26,C.C.,,4,29,29-Apr,6,11,Tri,4505,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,4505_Tri_blue,0.898706897,5.57,1.334193026,0,0,0,0,0
+4505+,4505,Plant,2\5,1,59,2,100,5/23/26,,,5,23,23-May,6,11,Tri,4505,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,4505_Tri_blue,0.882352941,7.01,1.300132192,0.044072278,0,0,0,0
+4511-,4511,No plant,22,1,32,1,100,5/1/26,C.C.,,5,1,1-May,6,16,Tri,4511,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,4511_Tri_blue,0.900199601,6.22,0.778962648,0.024342583,0,0,0,0
+4511+,4511,Plant,37,1,85,1,100,5/8/26,C.C.,,5,8,8-May,6,16,Tri,4511,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,4511_Tri_blue,0.886632826,5.36,2.43784554,0.028680536,0,0,0,0
+4547-,4547,No plant,2\12,1,39,6,100,5/29/26,C.C.,,5,29,29-May,5,10,Tri,4547,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4547_Tri_purple,0.865642994,8.88,0.691526263,0.106388656,0,0,0,0.01
+4547+,4547,Plant,81,2,69,0,100,5/26/26,C.C.,,5,26,26-May,5,10,Tri,4547,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4547_Tri_purple,0.889328063,5.68,1.861806808,0,0,0,0,0.01
+4576-,4576,No plant,,,58,1,,,,,,,,5,21,Tri,4576,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,4576_Tri_yellow,0.881261596,5.11,1.755488968,0.030267051,0,0,0,0
+4576+,4576,Plant,21,1,64,3,100,5/1/26,C.C.,,5,1,1-May,5,21,Tri,4576,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,4576_Tri_yellow,0.894977169,5.15,1.89259045,0.088715177,0,0,0,0
+4582-,4582,No plant,66,1,26,2,100,5/22/26,C.C.,,5,22,22-May,6,11,Tri,4582,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4582_Tri_green,0.851428571,6.51,0.639351952,0.049180919,0,0,0,0
+4582+,4582,Plant,64,2,59,0,100,5/22/26,C.C.,,5,22,22-May,6,11,Tri,4582,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4582_Tri_green,0.883458647,5.45,1.670187155,0,0,0,0,0
+4712-,4712,No plant,43,2,31,0,100,5/12/26,,,5,12,12-May,6,2,Tri,4712,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4712_Tri_red,0.878731343,6.27,0.766891442,0,0,0,0,0
+4712+,4712,Plant,51,2,43,1,100,5/19/26,,,5,19,19-May,6,2,Tri,4712,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,4712_Tri_red,0.887959866,6.43,1.026502477,0.023872151,0,0,0,0
+4714-,4714,No plant,2\6,2,53,0,100,5/29/26,C.C.,,5,29,29-May,3,7,Tri,4714,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,4714_Tri_yellow,0.944111776,8.52,0.898066954,0,0.03,0,0,0
+4714+,4714,Plant,14,2,69,0,100,4/29/26,C.C.,,4,29,29-Apr,3,7,Tri,4714,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,4714_Tri_yellow,0.896797153,5.26,1.993723746,0,0.03,0,0,0
+4745-,4745,No plant,24,1,37,0,100,5/1/26,C.C.,,5,1,1-May,6,12,Tri,4745,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4745_Tri_green,0.898635478,7.69,0.729772812,0,0.03,0,0,0
+4745+,4745,Plant,28,2,56,3,100,5/4/26,C.C.,,5,4,4-May,6,12,Tri,4745,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4745_Tri_green,0.778947368,9.5,1.03145946,0.055256757,0.03,0,0,0
+4760-,4760,No plant,47,2,25,4,100,5/21/26,,,5,21,21-May,6,2,Tri,4760,PlantW-SoilNW-FungWsterile,GM-,GM+,GM-sterile,Yes,1,pink_blue,4760_Tri_pink_blue,0.917341977,7.06,0.526138275,0.084182124,0,0,0,0
+4760+,4760,Plant,2\25,2,56,0,100,6/3/26,J.S.,,6,3,3-Jun,6,2,Tri,4760,PlantW-SoilNW-FungWsterile,GM-,GM+,GM-sterile,Yes,1,pink_blue,4760_Tri_pink_blue,0.876267748,6.57,1.325811208,0,0,0,0,0
+4934-,4934,No plant,87,1,34,0,100,5/26/26,C.C.,,5,26,26-May,3,23,Tri,4934,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4934_Tri_green,0.867368421,6.96,0.767647654,0,0,0,0,0
+4934+,4934,Plant,83,2,97,0,100,5/26/26,C.C.,,5,26,26-May,3,23,Tri,4934,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4934_Tri_green,0.875739645,7.2,2.096814846,0,0,0,0,0
+4942-,4942,No plant,38,1,43,1,,,,,,,,3,27,Tri,4942,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4942_Tri_pink,0.877291961,5.39,1.239456806,0.028824577,0.01,0,0,0
+4942+,4942,Plant,2\18,2,85,1,100,6/2/26,J.S.,,6,2,2-Jun,3,27,Tri,4942,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4942_Tri_pink,0.871323529,7.84,1.69597434,0.019952639,0.01,0,0,0
+4959-,4959,No plant,16,1,30,0,100,4/30/26,,,4,30,30-Apr,5,22,Tri,4959,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4959_Tri_green,0.854263566,5.47,0.875060137,0,0.01,0,0,0.01
+4959+,4959,Plant,,,36,0,,,,,,,,5,22,Tri,4959,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,4959_Tri_green,0.912280702,5.29,1.016750036,0,0.01,0,0,0.01
+4990-,4990,No plant,19,1,36,1,100,4/30/26,,,4,30,30-Apr,5,22,Tri,4990,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,4990_Tri_white,0.882352941,6.1,0.911645902,0.025323497,0.02,0.01,0,0
+4990+,4990,Plant,7,1,108,0,100,4/24/26,C.C.,,4,24,24-Apr,5,22,Tri,4990,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,4990_Tri_white,0.887543253,6.33,2.620151325,0,0.02,0.01,0,0
+5031-,5031,No plant,53,2,40,0,100,5/19/26,,,5,19,19-May,6,28,Tri,5031,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,5031_Tri_white,0.86779661,6.86,0.915827715,0,0,0,0,0
+5031+,5031,Plant,49,1,41,2,100,5/19/26,,,5,19,19-May,6,28,Tri,5031,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,5031_Tri_white,0.880998081,8.16,0.7773464,0.037919337,0,0,0,0
+5040-,5040,No plant,63,2,53,0,100,5/22/26,C.C.,,5,22,22-May,4,20,Tri,5040,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5040_Tri_orange,0.849315068,5.77,1.474100465,0,0,0,0,0
+5040+,5040,Plant,88,1,23,1,100,5/28/26,C.C.,Abnormally Low,5,28,28-May,4,20,Tri,5040,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5040_Tri_orange,0.859459459,7.05,0.517379455,0.022494759,0,0,0,0
+5060-,5060,No plant,78,2,28,0,100,5/26/26,C.C.,,5,26,26-May,6,27,Tri,5060,PlantW-SoilW-FungWsterile,GM-,GM-,GM-sterile,Yes,1,red_blue,5060_Tri_red_blue,0.78490566,7.77,0.625770964,0,0,0,0,0
+5060+,5060,Plant,2\14,1,61,0,100,5/29/26,C.C.,,5,29,29-May,6,27,Tri,5060,PlantW-SoilW-FungWsterile,GM-,GM-,GM-sterile,Yes,1,red_blue,5060_Tri_red_blue,0.873584906,7.34,1.29665521,0,0,0,0,0
+5115-,5115,No plant,76,1,29,0,100,5/26/26,C.C.,,5,26,26-May,5,19,Tri,5115,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,5115_Tri_pink,0.867850099,7.18,0.634343789,0,0,0,0,0
+5115+,5115,Plant,62,2,16,0,100,5/22/26,C.C.,Abnormally Low,5,22,22-May,5,19,Tri,5115,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,5115_Tri_pink,0.872987478,5.46,0.457525371,0,0,0,0,0
+5228-,5228,No plant,51,1,17,2,100,5/19/26,,Very little dye present,5,19,19-May,5,19,Tri,5228,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,5228_Tri_red,0.869120654,6.31,0.4225084,0.049706871,0,0,0,0
+5228+,5228,Plant,2\19,1,18,0,100,6/2/26,J.S.,,6,2,2-Jun,5,19,Tri,5228,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,5228_Tri_red,0.882235529,6.95,0.400128064,0,0,0,0,0
+5267-,5267,No plant,49,2,36,0,100,5/19/26,,,5,19,19-May,6,2,Tri,5267,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,5267_Tri_pink,0.885375494,7.61,0.728259574,0,0,0,0,0
+5267+,5267,Plant,70,1,63,0,100,5/22/26,C.C.,,5,22,22-May,6,2,Tri,5267,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,5267_Tri_pink,0.857758621,6.88,1.455066612,0,0,0,0,0
+5381-,5381,No plant,91,2,23,2,100,5/23/26,C.C.,,5,23,23-May,5,10,Tri,5381,PlantNW-SoilNW-FungWsterile,GM+,GM+,GM-sterile,Yes,1,white_blue,5381_Tri_white_blue,0.901052632,6.05,0.575066617,0.050005793,0.01,0,0,0
+5381+,5381,Plant,4,1,95,8,100,4/24/26,C.C.,,4,24,24-Apr,5,10,Tri,5381,PlantNW-SoilNW-FungWsterile,GM+,GM+,GM-sterile,Yes,1,white_blue,5381_Tri_white_blue,0.900326797,6.49,2.216024654,0.186612602,0.01,0,0,0
+5403-,5403,No plant,39,2,61,0,100,5/8/26,C.C.,,5,8,8-May,6,6,Tri,5403,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,5403_Tri_white,0.876325088,6.77,1.401431184,0,0,0,0,0
+5403+,5403,Plant,,,63,0,,,,,,,,6,6,Tri,5403,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,5403_Tri_white,0.866533865,5.31,1.866192089,0,0,0,0,0
+5436-,5436,No plant,9,2,46,0,100,4/29/26,C.C.,,4,29,29-Apr,3,3,Tri,5436,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5436_Tri_orange,0.848484848,5.36,1.378620736,0,0.01,0,0,0
+5436+,5436,Plant,,,62,0,,,,,,,,3,3,Tri,5436,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5436_Tri_orange,0.901666667,5.58,1.679605668,0,0.01,0,0,0
+5488-,5488,No plant,,,13,1,,,,,,,,3,1,Tri,5488,PlantW-SoilNW-FungNWsterile,GM-,GM+,GM+sterile,Yes,1,yellow_blue,5488_Tri_yellow_blue,0.894934334,5.28,0.37498519,0.028845015,0,0,0,0
+5488+,5488,Plant,2\10,2,55,0,100,5/29/26,C.C.,,5,29,29-May,3,1,Tri,5488,PlantW-SoilNW-FungNWsterile,GM-,GM+,GM+sterile,Yes,1,yellow_blue,5488_Tri_yellow_blue,0.884437596,9.15,0.926339655,0,0,0,0,0
+5619-,5619,No plant,,,21,0,,,,,,,,6,5,Tri,5619,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,5619_Tri_white,0.884875847,5.36,0.60348714,0,0,0,0,0
+5619+,5619,Plant,42,1,53,2,100,5/12/26,C.C.,,5,12,12-May,6,5,Tri,5619,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,5619_Tri_white,0.905462185,6.82,1.169814589,0.044143947,0,0,0,0
+5626-,5626,No plant,,,40,2,,,,,,,,6,6,Tri,5626,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,5626_Tri_green,0.874493927,5.16,1.208229257,0.060411463,0,0,0,0
+5626+,5626,Plant,34,1,76,1,100,5/26/26,C.C.,,5,26,26-May,6,6,Tri,5626,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,5626_Tri_green,0.868468468,6.44,1.852121725,0.024370023,0,0,0,0
+5641-,5641,No plant,45,1,21,2,100,5/12/26,,slide leaking,5,12,12-May,6,4,Tri,5641,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,5641_Tri_purple,0.878406709,8.94,0.364486953,0.034713043,0,0,0,0
+5641+,5641,Plant,17,1,31,0,100,4/30/26,,,4,30,30-Apr,6,4,Tri,5641,PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,5641_Tri_purple,0.852822581,5.27,0.940130719,0,0,0,0,0
+5714-,5714,No plant,10,2,37,4,100,4/29/26,C.C.,,4,29,29-Apr,6,8,Tri,5714,PlantW-SoilW-FungNWsterile,GM-,GM-,GM+sterile,Yes,1,orange_blue,5714_Tri_orange_blue,0.786078098,6.03,1.063933716,0.115019861,0,0,0,0
+5714+,5714,Plant,14,1,37,2,100,4/29/26,C.C.,,4,29,29-Apr,6,8,Tri,5714,PlantW-SoilW-FungNWsterile,GM-,GM-,GM+sterile,Yes,1,orange_blue,5714_Tri_orange_blue,0.89,5.65,1.00290345,0.054210997,0,0,0,0
+5722-,5722,No plant,19,2,32,0,100,4/30/26,,,4,30,30-Apr,6,6,Tri,5722,PlantNW-SoilW-FungWsterile,GM+,GM-,GM-sterile,Yes,1,purple_blue,5722_Tri_purple_blue,0.785123967,5.81,0.956161971,0,0,0,0,0
+5722+,5722,Plant,40,1,52,1,100,5/8/26,C.C.,,5,8,8-May,6,6,Tri,5722,PlantNW-SoilW-FungWsterile,GM+,GM-,GM-sterile,Yes,1,purple_blue,5722_Tri_purple_blue,0.875278396,6.43,1.259337157,0.024218022,0,0,0,0
+5742-,5742,No plant,84,2,40,0,100,5/26/26,C.C.,,5,26,26-May,6,3,Tri,5742,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,5742_Tri_yellow,0.877917415,6.52,0.952477197,0,0,0,0,0
+5742+,5742,Plant,72,2,42,0,100,5/26/26,C.C.,,5,26,26-May,6,3,Tri,5742,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,5742_Tri_yellow,0.896062992,5.99,1.06654647,0,0,0,0,0
+5771-,5771,No plant,2\29,1,117,0,100,6/3/26,M.C.,ives????,6,3,3-Jun,6,5,Tri,5771,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,5771_Tri_blue,0.88441331,7.53,2.394591693,0,0,0,0,0
+5771+,5771,Plant,74,1,55,0,100,5/26/26,C.C.,,5,26,26-May,6,5,Tri,5771,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,5771_Tri_blue,0.877729258,5.37,1.590463418,0,0,0,0,0
+5852-,5852,No plant,11,1,42,1,100,4/29/26,C.C.,,4,29,29-Apr,6,9,Tri,5852,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5852_Tri_orange,0.791075051,5.4,1.340089173,0.031906885,0,0,0,0
+5852+,5852,Plant,2\1,2,120,1,100,5/28/26,C.C.,,5,28,28-May,6,9,Tri,5852,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5852_Tri_orange,0.865580448,7.72,2.447667175,0.020397226,0,0,0,0
+5865-,5865,No plant,21,2,21,0,100,5/1/26,C.C.,,5,1,1-May,6,2,Tri,5865,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5865_Tri_orange,0.842911877,5.25,0.646805455,0,0,0,0,0
+5865+,5865,Plant,59,1,93,2,100,5/2/26,C.C.,,5,2,2-May,6,2,Tri,5865,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5865_Tri_orange,0.737142857,6.6,2.605452784,0.056031243,0,0,0,0
+5877-,5877,No plant,41,2,56,2,100,5/3/25,C.C.,,5,3,3-May,5,27,Tri,5877,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5877_Tri_orange,0.851590106,6.94,1.2914982,0.046124936,0,0.01,0,0
+5877+,5877,Plant,2\21,2,106,2,100,6/3/26,J.S.,1 vesicle found,6,3,3-Jun,5,27,Tri,5877,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5877_Tri_orange,0.87654321,8.12,2.029889336,0.038299799,0,0.01,0,0
+5904-,5904,No plant,,,39,0,,,,,,,,5,9,Tri,5904,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5904_Tri_orange,0.890063425,5.11,1.168741883,0,0,0,0,0
+5904+,5904,Plant,32,1,73,0,100,5/4/26,C.C.,,5,4,4-May,5,9,Tri,5904,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,5904_Tri_orange,0.934102142,6.56,1.623755027,0,0,0,0,0
+6507-,6507,No plant,2\27,2,73,0,100,6/4/26,J.S.,2 vesicles found (may actually be swapped with 2416),6,4,4-Jun,7,12,Tri,6507,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,6507_Tri_white,0.904672897,7.16,1.536080989,0,0,0,0,0
+6507+,6507,Plant,3,2,69,0,,,,,,,,7,12,Tri,6507,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,6507_Tri_white,0.875273523,5.53,1.943014421,0,0,0,0,0
+6558-,6558,No plant,58,2,27,2,100,5/21/26,,,5,21,21-May,3,22,Tri,6558,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,6558_Tri_blue,0.875685558,7.01,0.599505835,0.04440784,0,0,0,0
+6558+,6558,Plant,50,2,44,0,100,5/19/26,,,5,19,19-May,3,22,Tri,6558,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,6558_Tri_blue,0.880434783,6.59,1.033631952,0,0,0,0,0
+6875-,6875,No plant,2\23,1,41,0,100,6/3/26,J.S.,,6,3,3-Jun,5,29,Tri,6875,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,6875_Tri_white,0.863309353,7.44,0.870042226,0,0.01,0.01,0,0
+6875+,6875,Plant,2\20,1,132,0,100,6/3/26,J.S.,,6,3,3-Jun,5,29,Tri,6875,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,6875_Tri_white,0.862847222,7.19,2.900060055,0,0.01,0.01,0,0
+6879-,6879,No plant,37,2,51,0,100,5/8/26,C.C.,,5,8,8-May,6,36,Tri,6879,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,6879_Tri_white,0.893617021,5.37,1.448572759,0,0,0,0,0
+6879+,6879,Plant,,,109,0,,,,,,,,6,36,Tri,6879,PlantNW-SoilNW-FungW,GM+,GM+,GM-,No,1,white,6879_Tri_white,0.893238434,5.65,2.943787823,0,0,0,0,0
+6881-,6881,No plant,61,2,47,1,100,5/22/26,C.C.,,5,22,22-May,5,10,Tri,6881,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,6881_Tri_green,0.876675603,8.84,0.826613565,0.017587523,0,0,0,0
+6881+,6881,Plant,90,1,39,0,100,5/28/26,C.C.,,5,28,28-May,5,10,Tri,6881,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,6881_Tri_green,0.873817035,6.55,0.928749635,0,0,0,0,0
+6885-,6885,No plant,,,57,0,,,,,,,,3,20,Tri,6885,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,6885_Tri_red,0.876122083,5.23,1.695525773,0,0,0,0,0
+6885+,6885,Plant,,,77,0,,,,,,,,3,20,Tri,6885,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,6885_Tri_red,0.891891892,5.09,2.31183366,0,0,0,0,0
+6887-,6887,No plant,13,1,39,2,100,4/29/26,C.C.,,4,29,29-Apr,5,2,Tri,6887,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,6887_Tri_yellow,0.886925795,5.31,1.12870034,0.057882069,0,0,0,0
+6887+,6887,Plant,,,69,0,,,,,,,,5,2,Tri,6887,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,6887_Tri_yellow,0.883945841,5.48,1.941505974,0,0,0,0,0
+6894-,6894,No plant,3,1,,,,,,,,,,7,20,Tri,6894,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,6894_Tri_yellow,0.892307692,5.42,,,0.04109589,0,0,0
+6894+,6894,Plant,60,2,106,0,100,5/22/26,C.C.,,5,22,22-May,7,20,Tri,6894,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,6894_Tri_yellow,0.879837067,6.29,2.610651019,0,0.04109589,0,0,0
+7120-,7120,No plant,47,1,23,1,100,5/21/26,,,5,21,21-May,5,17,Tri,7120,PlantNW-SoilNW-FungNWsterile,GM+,GM+,GM+sterile,Yes,1,blue_blue,7120_Tri_blue_blue,0.885122411,6.68,0.53020509,0.023052395,0,0,0,0
+7120+,7120,Plant,7,2,50,1,100,4/24/26,C.C.,,4,24,24-Apr,5,17,Tri,7120,PlantNW-SoilNW-FungNWsterile,GM+,GM+,GM+sterile,Yes,1,blue_blue,7120_Tri_blue_blue,0.898947368,6.02,1.259317109,0.025186342,0,0,0,0
+7147-,7147,No plant,68,1,34,0,100,5/22/26,C.C.,,5,22,22-May,5,9,Tri,7147,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,7147_Tri_pink,0.869757174,5.49,0.97051982,0,0,0,0,0
+7147+,7147,Plant,,,66,3,,,,,,,,5,9,Tri,7147,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,7147_Tri_pink,0.868421053,5.33,1.94348968,0.08834044,0,0,0,0
+7574-,7574,No plant,39,1,32,1,100,,,,,,,7,12,Tri,7574,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,7574_Tri_green,0.865092749,8.08,0.623981626,0.019499426,0.02,0,0,0
+7574+,7574,Plant,17,2,18,0,100,4/30/26,,,4,30,30-Apr,7,12,Tri,7574,PlantNW-SoilW-FungNW,GM+,GM-,GM+,No,1,green,7574_Tri_green,0.88961039,5.2,0.530353172,0,0.02,0,0,0
+9145-,9145,No plant,89,2,14,0,100,5/28/26,C.C.,Abnormally Low,5,28,28-May,4,3,Tri,9145,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,9145_Tri_orange,0.905660377,7.27,0.289817171,0,0,0,0,0
+9145+,9145,Plant,27,1,58,0,100,5/1/26,C.C.,Large obstructors,5,1,1-May,4,3,Tri,9145,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,9145_Tri_orange,0.909090909,8.28,1.0502343,0,0,0,0,0
+1184(5226)-,1184(5226),No plant,,,30,1,,,,,,,,6,2,Tri,1184 (5226),PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,1184(5226)_Tri_yellow,0.895299145,5.61,0.814115605,0.027137187,0,0,0,0
+1184(5226)+,1184(5226),Plant,58,1,52,3,100,5/21/26,,,5,21,21-May,6,2,Tri,1184 (5226),PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,1184(5226)_Tri_yellow,0.887681159,8.09,0.986946647,0.05693923,0,0,0,0
+2996A1-,2996A1,No plant,73,1,40,1,100,5/26/26,C.C.,,5,26,26-May,7,14,Tri,2996A1,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2996A1_Tri_red,0.869198312,5.67,1.106251606,0.02765629,0,0,0,0
+2996A1+,2996A1,Plant,57,1,81,2,100,5/21/26,C.C.,,5,21,21-May,7,14,Tri,2996A1,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2996A1_Tri_red,0.879056047,5.26,2.387693432,0.058955393,0,0,0,0
+2996A2-,2996A2,No plant,,,35,1,,,,,,,,7,14,Tri,2996A2,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2996A2_Tri_red,0.86492891,5.44,1.013875403,0.028967869,0.01,0,0,0
+2996A2+,2996A2,Plant,6,1,102,1,100,4/24/26,C.C.,,4,24,24-Apr,7,14,Tri,2996A2,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2996A2_Tri_red,0.879916859,5.4,2.925907748,0.02868537,0.01,0,0,0
+2996A3-,2996A3,No plant,29,2,83,0,100,5/4/26,C.C.,Abnormally High,5,4,4-May,7,14,Tri,2996A3,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2996A3_Tri_red,0.699788584,6.08,2.658909254,0,0,0,0,0
+2996A3+,2996A3,Plant,33,2,33,1,100,5/4/26,C.C.,,5,4,4-May,7,14,Tri,2996A3,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,2996A3_Tri_red,0.877104377,7.42,0.691121832,0.020943086,0,0,0,0
+4444(2988)-,4444(2988),No plant,67,1,47,2,100,5/22/26,C.C.,,5,22,22-May,5,33,Tri,4444 (2988),PlantW-SoilW-FungWsterile,GM-,GM-,GM-sterile,Yes,1,red_blue,4444(2988)_Tri_red_blue,0.656140351,5.07,1.925701674,0.081944752,0,0,0,0
+4444(2988)+,4444(2988),Plant,73,2,58,1,100,5/26/26,C.C.,,5,26,26-May,5,33,Tri,4444 (2988),PlantW-SoilW-FungWsterile,GM-,GM-,GM-sterile,Yes,1,red_blue,4444(2988)_Tri_red_blue,0.872897196,5.09,1.779274557,0.030677148,0,0,0,0
+4543(5232)-,4543(5232),No plant,54,2,39,1,100,5/19/26,,,5,19,19-May,6,16,Tri,4543 (5232),PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4543(5232)_Tri_purple,0.859315589,7.47,0.828108363,0.021233548,0,0,0,0
+4543(5232)+,4543(5232),Plant,35,1,79,4,100,5/4/26,C.C.,,5,4,4-May,6,16,Tri,4543 (5232),PlantNW-SoilW-FungW,GM+,GM-,GM-,No,1,purple,4543(5232)_Tri_purple,0.887372014,5.94,2.042823167,0.103434084,0,0,0,0
+4777-A-,4777A,No plant,2\2,1,12,0,100,5/28/26,C.C.,Extreme visual obstructors,5,28,28-May,6,2,Tri,4777-A,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4777-A_Tri_pink,0.861742424,6.92,0.274279616,0,0,0,0,0
+4777-A+,4777A,Plant,88,2,69,2,100,5/28/26,C.C.,,5,28,28-May,6,2,Tri,4777-A,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,4777-A_Tri_pink,0.868333333,6.16,1.758238403,0.050963432,0,0,0,0
+4777-B-,4777B,No plant,2\21,2,37,0,100,5/23/26,,,5,23,23-May,6,2,Tri,4777-B,PlantW-SoilW-FungNWsterile,GM-,GM-,GM+sterile,Yes,1,orange_blue,4777-B_Tri_orange_blue,0.899807322,7.64,0.733592189,0,0,0,0,0
+4777-B+,4777B,Plant,,,37,1,,,,,,,,6,2,Tri,4777-B,PlantW-SoilW-FungNWsterile,GM-,GM-,GM+sterile,Yes,1,orange_blue,4777-B_Tri_orange_blue,0.896805897,6.58,0.854620352,0.023097847,0,0,0,0
+4777-C-,4777C,No plant,76,2,26,2,100,5/26/26,C.C.,,5,26,26-May,6,2,Tri,4777-C,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,4777-C_Tri_yellow,0.689393939,6.2,0.829105991,0.063777384,0,0,0,0
+4777-C+,4777C,Plant,2\7,2,52,2,100,5/29/26,C.C.,,5,29,29-May,6,2,Tri,4777-C,PlantW-SoilNW-FungNW,GM-,GM+,GM+,No,1,yellow,4777-C_Tri_yellow,0.884773663,7.8,1.027004651,0.039500179,0,0,0,0
+5229-RED,5229_red,No plant,78,1,50,0,100,5/26/26,C.C.,Might be white,5,26,26-May,6,1,Tri,5229_red,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,5229_red_Tri_red,0.870841487,5.49,1.425457932,0,0,0,0,0
+5229+RED,5229_red,Plant,67,1,55,0,100,5/22/26,C.C.,Might be white,5,22,22-May,6,1,Tri,5229_red,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,5229_red_Tri_red,0.881261596,5.41,1.572376106,0,0,0,0,0
+5229-WHITE,5229_blue,No plant,74,2,42,0,100,5/26/26,C.C.,Might be red,5,26,26-May,5,22,Tri,5229_white,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,5229_white_Tri_blue,0.874087591,7,0.935604176,0,0,0,0,0
+5229+WHITE,5229_blue,Plant,71,2,56,0,100,5/22/26,C.C.,Might be red,5,22,22-May,5,22,Tri,5229_white,PlantNW-SoilNW-FungNW,GM+,GM+,GM+,No,1,blue,5229_white_Tri_blue,0.845735027,5.27,1.712533004,0,0,0,0,0
+flag1-,flag1,No plant,48,2,26,0,100,5/19/26,A.F.,,5,19,19-May,5,14,Tri,flag1_tri,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,flag1_tri_Tri_orange,0.884444444,6.71,0.597139947,0,0,0,0,0
+flag1+,flag1,Plant,2\3,1,77,0,100,5/23/26,C.C.,,5,23,23-May,5,14,Tri,flag1_tri,PlantW-SoilW-FungNW,GM-,GM-,GM+,No,1,orange,flag1_tri_Tri_orange,0.906367041,7.16,1.617221306,0,0,0,0,0
+flag2-,flag2,No plant,66,2,30,0,100,5/22/26,C.C.,,5,22,22-May,5,3,Mai,flag2,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,flag2_Mai_pink,0.896414343,7.21,0.632663892,0,0,0,0,0
+flag2+,flag2,Plant,85,2,66,4,100,5/26/26,C.C.,,5,26,26-May,5,3,Mai,flag2,PlantW-SoilNW-FungW,GM-,GM+,GM-,No,1,pink,flag2_Mai_pink,0.896030246,7.15,1.404142161,0.085099525,0,0,0,0
+flag3-,flag3,No plant,2\3,2,33,0,100,5/28/26,C.C.,,5,28,28-May,5,14,Tri,flag3_tri,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,flag3_tri_Tri_red,0.93003413,8.58,0.563668313,0,0,0,0,0
+flag3+,flag3,Plant,,,,,,,,,,,,5,14,Tri,flag3_tri,PlantW-SoilW-FungW,GM-,GM-,GM-,No,1,red,flag3_tri_Tri_red,0.868468468,6.48,,,0,0,0,0
