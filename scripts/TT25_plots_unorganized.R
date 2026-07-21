@@ -33,11 +33,14 @@ facet_lab <- c("Plant history: ambient", "Plant history: weeded")
 names(facet_lab) <- c("NW", "W")
 
 # Remove outliers
-
+df_noSterile$anet[89] <- NA
 
 # Models
-
-
+anet_tri <- lmer(log(anet + 1) ~ PlantGMTrt * ExpSoilSource * ExpFungSource + 
+                   wet_rhizome_mass_g + (1 | machine) + (1 | plot_field), 
+                 data = df_noSterile)
+anet_tri_amf <- lmer(log(anet + 1) ~ ExpFungSource * AMF_asep_plant + (1 | machine) + (1 | plot_field), 
+                     data = df_noSterile)
 
 
 # Plot prep (full)

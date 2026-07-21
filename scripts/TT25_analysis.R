@@ -21,7 +21,7 @@ df_noSterile <- df %>%
                                  ifelse(wet_root_shoot > 20, NA, wet_root_shoot)))
 
 ###############
-# Anet
+# Anet - general
 ###############
 # Remove outliers (Bonferroni: p < 0.001)
 df_noSterile$anet[89] <- NA
@@ -46,6 +46,26 @@ r.squaredGLMM(anet_tri)
 # Pairwise comparisons
 cld(emmeans(anet_tri, pairwise~ExpSoilSource*ExpFungSource))
 cld(emmeans(anet_tri, pairwise~PlantGMTrt*ExpFungSource), alpha = 0.15)
+
+###############
+# Anet - AMF
+###############
+# Model
+anet_tri_amf <- lmer(log(anet + 1) ~ ExpFungSource * AMF_asep_plant + (1 | machine) + (1 | plot_field), 
+                 data = df_noSterile)
+
+# Check normality assumptions
+plot(anet_tri_amf)
+qqnorm(residuals(anet_tri_amf))
+qqline(residuals(anet_tri_amf))
+hist(residuals(anet_tri_amf))
+shapiro.test(residuals(anet_tri_amf))
+outlierTest(anet_tri_amf)
+
+# Model output
+summary(anet_tri_amf)
+Anova(anet_tri_amf)
+
 
 ###############
 # gsw
@@ -122,6 +142,26 @@ cld(emmeans(vcmax_tri, pairwise~PlantGMTrt*ExpSoilSource), alpha = 0.1)
 cld(emmeans(vcmax_tri, pairwise~PlantGMTrt*ExpFungSource), alpha = 0.1)
 
 ###############
+# Vcmax25 - AM hyphae
+###############
+vcmax_tri_amf <- lmer(log(vcmax25) ~ ExpFungSource * AMF_asep_plant + (1 | machine) + (1 | plot_field), 
+                      data = df_noSterile)
+
+# Check normality assumptions
+plot(vcmax_tri_amf)
+qqnorm(residuals(vcmax_tri_amf))
+qqline(residuals(vcmax_tri_amf))
+hist(residuals(vcmax_tri_amf))
+shapiro.test(residuals(vcmax_tri_amf))
+outlierTest(vcmax_tri_amf)
+
+# Model results
+Anova(vcmax_tri_amf)
+
+# Post-hoc tests
+test(emtrends(vcmax_tri_amf, ~ExpFungSource, "AMF_asep_plant"))
+
+###############
 # Jmax
 ###############
 jmax_tri <- lmer(log(jmax25) ~ PlantGMTrt * ExpSoilSource * ExpFungSource + 
@@ -148,6 +188,26 @@ cld(emmeans(jmax_tri, pairwise~ExpSoilSource*ExpFungSource))
 cld(emmeans(jmax_tri, pairwise~PlantGMTrt*ExpSoilSource), alpha = 0.2)
 
 ###############
+# Jmax25 - AM hyphae
+###############
+jmax_tri_amf <- lmer(log(jmax25) ~ ExpFungSource * AMF_asep_plant + (1 | machine) + (1 | plot_field), 
+                      data = df_noSterile)
+
+# Check normality assumptions
+plot(jmax_tri_amf)
+qqnorm(residuals(jmax_tri_amf))
+qqline(residuals(jmax_tri_amf))
+hist(residuals(jmax_tri_amf))
+shapiro.test(residuals(jmax_tri_amf))
+outlierTest(jmax_tri_amf)
+
+# Model results
+Anova(jmax_tri_amf)
+
+# Post-hoc tests
+test(emtrends(jmax_tri_amf, ~ExpFungSource, "AMF_asep_plant"))
+
+###############
 # Jmax:Vcmax
 ###############
 jmaxvcmax_tri <- lmer(jmax25_vcmax25 ~ PlantGMTrt * ExpSoilSource * ExpFungSource + 
@@ -169,6 +229,8 @@ r.squaredGLMM(jmaxvcmax_tri)
 
 # Pairwise comparisons
 cld(emmeans(jmaxvcmax_tri, pairwise~PlantGMTrt*ExpSoilSource, type = "response"))
+
+
 
 ###############
 # Nmass
@@ -222,9 +284,6 @@ cld(emmeans(marea_tri, ~ExpSoilSource*ExpFungSource), alpha = 0.2)
 
 cld(emmeans(marea_tri, ~ExpSoilSource*ExpFungSource*PlantGMTrt), alpha = 0.2)
 
-
-
-
 ###############
 # Narea
 ###############
@@ -272,6 +331,27 @@ r.squaredGLMM(d15n_tri)
 emmeans(d15n_tri, pairwise~ExpFungSource)
 emmeans(d15n_tri, pairwise~ExpSoilSource)
 cld(emmeans(d15n_tri, pairwise~ExpSoilSource * ExpFungSource))
+
+###############
+# d15N - AM hyphae
+###############
+d15n_tri_amf <- lmer(leaf_d15n ~ ExpFungSource * AMF_asep_noplant + (1 | machine) + (1 | plot_field), 
+                      data = df_noSterile)
+
+# Check normality assumptions
+plot(d15n_tri_amf)
+qqnorm(residuals(d15n_tri_amf))
+qqline(residuals(d15n_tri_amf))
+hist(residuals(d15n_tri_amf))
+shapiro.test(residuals(d15n_tri_amf))
+outlierTest(d15n_tri_amf)
+
+# Model results
+Anova(d15n_tri_amf)
+
+# Post-hoc comparisons
+test(emtrends(d15n_tri_amf, ~ExpFungSource, "AMF_asep_noplant"))
+
 
 ###############
 # PNUE
