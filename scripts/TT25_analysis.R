@@ -335,7 +335,7 @@ cld(emmeans(d15n_tri, pairwise~ExpSoilSource * ExpFungSource))
 ###############
 # d15N - AM hyphae
 ###############
-d15n_tri_amf <- lmer(leaf_d15n ~ ExpFungSource * AMF_asep_noplant + (1 | machine) + (1 | plot_field), 
+d15n_tri_amf <- lmer(leaf_d15n ~ PlantGMTrt * ExpFungSource * AMF_asep_plant + (1 | plot_field), 
                       data = df_noSterile)
 
 # Check normality assumptions
@@ -350,7 +350,7 @@ outlierTest(d15n_tri_amf)
 Anova(d15n_tri_amf)
 
 # Post-hoc comparisons
-test(emtrends(d15n_tri_amf, ~ExpFungSource, "AMF_asep_noplant"))
+test(emtrends(d15n_tri_amf, ~PlantGMTrt * ExpFungSource, "AMF_asep_plant"))
 
 
 ###############

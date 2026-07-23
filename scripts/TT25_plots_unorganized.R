@@ -20,13 +20,6 @@ df_noSterile <- df %>%
          wet_root_shoot = ifelse(wet_root_shoot == "Inf", NA,
                                  ifelse(wet_root_shoot > 20, NA, wet_root_shoot)))
 
-
-df_Sterile <- df %>%
-  filter(ExpFungSource == "Wsterile" | ExpFungSource == "NWsterile") %>%
-  mutate(FullExpTrt = gsub("-", "_", FullExpTrt),
-         wet_root_shoot = ifelse(wet_root_shoot == "Inf", NA,
-                                 ifelse(wet_root_shoot > 20, NA, wet_root_shoot)))
-
 # Some plot aesthetics
 gm.colors <- c("#F1B700", "#00B2BE")
 facet_lab <- c("Plant history: ambient", "Plant history: weeded")
