@@ -400,6 +400,26 @@ emmeans(tla_tri, pairwise~ExpFungSource, type = "response")
 cld(emmeans(tla_tri, ~ExpFungSource*ExpSoilSource|PlantGMTrt))
 
 ###############
+# Total leaf area - AM hyphae
+###############
+tla_tri_amf <- lmer(log(tla_cm2) ~ ExpFungSource * AMF_asep_plant + (1 | machine) + (1 | plot_field), 
+                      data = df_noSterile)
+
+# Check normality assumptions
+plot(tla_tri_amf)
+qqnorm(residuals(tla_tri_amf))
+qqline(residuals(tla_tri_amf))
+hist(residuals(tla_tri_amf))
+shapiro.test(residuals(tla_tri_amf))
+outlierTest(tla_tri_amf)
+
+# Model results
+Anova(tla_tri_amf)
+
+# Post-hoc tests
+test(emtrends(tla_tri_amf, ~ExpFungSource, "AMF_asep_plant"))
+
+###############
 #  Total wet biomass
 ###############
 tbio_tri <- lmer(log(total_wet_biomass_g) ~ PlantGMTrt * ExpSoilSource * ExpFungSource +
